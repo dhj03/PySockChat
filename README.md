@@ -1,2 +1,2 @@
 # pychat
-A CLI chat application using sockets between a server and its clients, written in Python.
+A CLI chat application using sockets between a local server and its clients, written in Python.
