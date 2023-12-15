@@ -44,7 +44,7 @@ A client may run the following commands:
 Both the server and client may be terminated at any time by triggering a `KeyboardInterrupt`. Terminating a server will also terminate all of its connected clients. Terminating a client is equivalent to using the `logout` command.
 
 ### Private Chats
-There are also a few commands a client may use to initiate a private chat with the user of another client, that bypasses the server (a p2p connection):
+There are also a few commands a client may use to initiate a private chat with the user of another client, that bypasses the server (with a p2p connection):
 
 `startprivate [user]` sends a request for a private chat to the user. If they accept the request, the private chat will be initiated. It will terminate as soon as any of the two users logout.
 
